@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.sandw.StopwatchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:id="@+id/timeview"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize = "92sp" />
+
+    <Button
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startbutton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetbutton"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/startbutton"
+        android:layout_alignStart="@+id/startbutton" />
+
+    <Button
+        android:text="Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopbutton"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/resetbutton"
+        android:layout_alignStart="@+id/resetbutton" />
+
+
+</RelativeLayout>
